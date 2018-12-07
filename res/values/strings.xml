@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">KamusFilsafat</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">Ok</string>
+    <string name="save">SImpan</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_title">Edit Kamus</string>
+    <string name="delte_title">Hapus kamus, Anda yakin?</string>
+</resources>

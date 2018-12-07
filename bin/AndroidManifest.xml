@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.example.kamusfilsafat" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19"/>
+    <application android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.kamusfilsafat.LoadingScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="com.example.CLEARSCREEN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>        
+        <activity 
+            android:label="Terjemah Kata"
+            android:name=".MainApp" >                 
+        </activity>
+        <activity 
+            android:label="Daftar Kata"
+            android:name=".DaftarKata" >                 
+        </activity>
+        <activity 
+            android:label="Tambah Kata"
+            android:name=".TambahKata" >                 
+        </activity>        
+        <!--created by AkhdanMF at 2018-12-06 21:43:18-->
+        <activity android:name=".setting"/>
+    </application>
+</manifest>
